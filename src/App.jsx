@@ -6,7 +6,7 @@ function App() {
     <>
       <nav>
         <NavLink to="/" end>
-          AMX CAD Viewer
+          AMX Fibregrid CAD Viewer
         </NavLink>
       </nav>
       <Outlet />
