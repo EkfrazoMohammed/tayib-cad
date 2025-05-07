@@ -1,4 +1,4 @@
-import * as VIEWER from "dxf-viewer";
+import * as VIEWER from "../../public/libs/dxf-viewer";
 import { FontFiles } from "../constants/Consts";
 
 export const createViewer = async (viewerCfg = {}) => {

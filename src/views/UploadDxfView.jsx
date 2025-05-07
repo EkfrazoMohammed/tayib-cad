@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import NavigationPanel from "../components/NavigationPanel.jsx";
 import Viewer2dContainer from "../components/Viewer2dContainer.jsx";
-import * as VIEWER from "dxf-viewer";
+// import * as VIEWER from "dxf-viewer";
+import * as VIEWER from "../../public/libs/dxf-viewer";
 import { createViewer } from "../utils/ViewerUtils";
 
 function UploadDxfView() {
